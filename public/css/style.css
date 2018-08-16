@@ -1,4 +1,4 @@
-body,h1 {font-family: "Charcoal", sans-serif;}
+body,h1 {font-family: 'Bitter', serif;;}
 body, html {height: 100%}
 
 body {
@@ -18,7 +18,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     font-size: 90px;
     color: #52464A;
-    font-family: Charcoal
+    font-family: 'Oswald', sans-serif;
     
 }
 
@@ -33,13 +33,15 @@ body {
     /*transform: translate(-29%, -50%);*/
     color: #52464A;
     font-size: 25px;
+    font-family: 'Bitter', serif
 }
 
 .info_2 {
  margin: 10;
   text-align: center;
   color: #52464A;
-    font-size: 25px
+    font-size: 25px;
+    font-family: 'Bitter', serif
  
 }
 
