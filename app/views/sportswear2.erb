@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1000000s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: 1}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: 1}
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container" style= "text-align: center">
+
+<div class="mySlides fade">
+ <div class="numbertext">1 / 10</div>
+ <a href="https://www.bloomingdales.com/shop/product/nike-logo-print-leggings?ID=2592723&pla_country=US&cm_mmc=Google-PLA-ADC-_-Designer-NA-_-Nike-_-884499025078USA&CAWELAID=120156070006870229&CAGPSPN=pla&CAAGID=47685644599&CATCI=aud-343412609714:pla-376844977860&CATARGETID=120156070006076310&cadevice=c&gclid=CjwKCAjwwdTbBRAIEiwAYQf_EyOj2jFnizfXk_5pGoe2g91tDIkAvPtRBk1aZYqo1kjFkD8i5s1UdhoCyO8QAvD_BwE">
+<img src="https://images.bloomingdalesassets.com/is/image/BLM/products/4/optimized/9689604_fpx.tif?wid=1200&qlt=90,0&layer=comp&op_sharpen=0&resMode=sharp2&op_usm=0.7,1.0,0.5,0&fmt=jpeg" style= "width: 50%" >
+</a>
+
+</div>
+
+<div class="mySlides fade">
+ <div class="numbertext">2 / 10</div>
+ <a href="https://www.neimanmarcus.com/p/nike-floral-print-sportswear-jacket-prod207850348?ecid=NMCS__GooglePLA&utm_source=google_shopping&adpos=1o14&scid=scplpsku176881697&sc_intid=sku176881697&gclid=CjwKCAjwwdTbBRAIEiwAYQf_E76YBLIY3Lu6Oxh3_HX1WfT0aKDQdrzUjcbhEWGtkHq4BrOx4IWQnBoCM8wQAvD_BwE"><img src="https://images.neimanmarcus.com/ca/1/product_assets/T/W/N/9/F/NMTWN9F_mu.jpg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+ <div class="numbertext">3 / 10</div>
+ <a href="https://www.nike.com/t/pro-womens-training-crops-MkTme0ZX"><img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/nvress67tyyyuhb4tmbc/pro-womens-training-crops-MkTme0ZX.jpg" style="width:50%"></a>
+ <div class="text">
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4/10</div>
+<a href="https://www.nike.com/t/sportswear-leg-a-see-womens-leggings-rJTGVN90/AH2008-010"><img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/pgmrzfs995ghzmphrieb/sportswear-leg-a-see-womens-leggings-rJTGVN90.jpg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5/10</div>
+<a href="http://us.topshop.com/webapp/wcs/stores/servlet/ProductDisplay?searchTermScope=3&searchType=ALL&viewAllFlag=false&beginIndex=1&langId=-1&productId=31712378&pageSize=20&defaultGridLayout=3&CE3_ENDECA_PRODUCT_ROLLUP_ENABLED=N&searchTerm=TS29U32PBLK&productOnlyCount=1&catalogId=33060&productIdentifierproduct=product&geoip=search&x=25&searchTermOperator=LIKE&sort_field=Relevance&y=11&storeId=13052&qubitRefinements=siteId%3DTopShopUS"><img src="https://images.topshop.com/i/TopShop/TS29U32PBLK_M_1.jpg?$Zoom$" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6/10</div>
+<a href="https://www.nike.com/t/sportswear-womens-hoodie-dopb0j/AO5294-719"><img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/mrxtmrzjauiqqd7wxljy/sportswear-womens-hoodie-dopb0j.jpg" style="width:50%"></a>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">7/10</div>
+<a href="https://www.nike.com/t/sportswear-rally-womens-hoodie-ZT5cxc/AJ6315-403"><img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/zzknpdisajparexhyac8/sportswear-rally-womens-hoodie-ZT5cxc.jpg" style="width:50%"></a>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8/10</div>
+<a href="https://www.victoriassecret.com/pink/apparel-sweats/classic-pant-pink?ProductID=403301&CatalogueType=OLS"><img src="https://dm.victoriassecret.com/p/760x1013/tif/da/98/da98206db3ab4fdca528aa55963ef6d5/SU18_PKPDP_110_023_e7564545.jpg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9/10</div>
+<a href="https://www.victoriassecret.com/pink/apparel-sweats/classic-pant-pink?ProductID=377314&CatalogueType=OLS
+"><img src="https://dm.victoriassecret.com/p/760x1013/tif/99/a4/99a4a6f2ef7d4c778624ad10f82c1916/S18_PK_582_129_e6932782.jpg" style="width:50%"></a>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10/10</div>
+<a href="https://www.victoriassecret.com/pink/apparel-sweats/nylon-classic-jogger-pink?ProductID=397842&CatalogueType=OLS
+"><img src="https://dm.victoriassecret.com/p/760x1013/tif/59/f8/59f85f490b1746c7807f7dfea09b1ff0/F18_PKPDP_033_125_PDP.jpg" style="width:50%"></a>
+</div>
+
+
+
+<br>
+
+
+
+
+<div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+   <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+     <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+       <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
