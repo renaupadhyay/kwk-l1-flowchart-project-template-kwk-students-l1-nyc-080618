@@ -56,4 +56,9 @@ end
 get '/sportswear3' do 
   erb :sportswear3
 end 
+
+get '/about_us' do
+  erb :about_us 
+end
+  
 end 
